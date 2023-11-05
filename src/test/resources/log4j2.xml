@@ -1,0 +1,21 @@
+<Configuration status="warn" name="sfdc" packages="">
+	<Appenders>
+		<RollingFile name="file" fileName="src/test/resources/logs/sfdc.log" filePattern="src/test/resources/logs/application-%d{yyyy-MM-dd-HH-mm}-%i.log">
+			<PatternLayout>
+				<Pattern>%highlight{%d [%t] %-5level: %msg%n%throwable}</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1MB" />
+			</Policies>
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%highlight{%d [%t] %-5level: %msg%n%throwable}" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="file" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

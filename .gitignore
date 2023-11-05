@@ -1,0 +1,3 @@
+target/classes/*
+test-output/*
+/target/

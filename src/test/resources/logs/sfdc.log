@@ -1,0 +1,27 @@
+2023-09-29 23:49:16,891 [main] INFO : Set driver : chrome
+2023-09-29 23:49:19,711 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-29 23:49:19,725 [main] INFO : Login Page title :Login | Salesforce
+2023-09-29 23:50:00,509 [main] INFO : Closing the browser :
+2023-09-29 23:50:50,307 [main] INFO : Set driver : chrome
+2023-09-29 23:50:52,476 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-29 23:50:52,491 [main] INFO : Login Page title :Login | Salesforce
+2023-09-29 23:51:32,256 [main] INFO : Closing the browser :
+2023-09-29 23:55:27,329 [main] INFO : Set driver : chrome
+2023-09-29 23:55:30,341 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-29 23:55:30,354 [main] INFO : Login Page title :Login | Salesforce
+2023-09-29 23:56:14,081 [main] INFO : Closing the browser :
+2023-09-30 00:01:09,509 [main] INFO : Set driver : chrome
+2023-09-30 00:01:12,919 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-30 00:01:12,932 [main] INFO : Login Page title :Login | Salesforce
+2023-09-30 00:02:10,034 [main] INFO : Closing the browser :
+2023-09-30 00:02:26,852 [main] INFO : Set driver : chrome
+2023-09-30 00:02:30,121 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-30 00:02:30,139 [main] INFO : Login Page title :Login | Salesforce
+2023-09-30 00:03:13,241 [main] INFO : Closing the browser :
+2023-09-30 00:04:48,740 [main] INFO : Set driver : chrome
+2023-09-30 00:04:52,062 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-30 00:04:52,075 [main] INFO : Login Page title :Login | Salesforce
+2023-09-30 00:13:49,224 [main] INFO : Set driver : chrome
+2023-09-30 00:13:52,535 [main] INFO : Launching the application : https://login.salesforce.com/
+2023-09-30 00:13:52,552 [main] INFO : Login Page title :Login | Salesforce
+2023-09-30 00:14:35,501 [main] INFO : Closing the browser :

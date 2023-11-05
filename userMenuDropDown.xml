@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="User_Menu_Drop_Down">
+	<listeners>
+		<listener class-name="com.tekarch.listeners.SFDC_Listener"></listener>
+	</listeners>
+	<test name="CHROME">
+		<parameter name="browser" value="chrome"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC05_ValidateUserMenuDropDown"></class>
+			<class name="com.tekarck.testCases.TC06_MyProfile"></class>
+			<class name="com.tekarck.testCases.TC07_MySettings"></class>
+			<class name="com.tekarck.testCases.TC08_DelevolperConsole"></class>
+			<class name="com.tekarck.testCases.TC09_Logout"></class>
+		</classes>
+	</test>
+	
+	<test name="EDGE">
+		<parameter name="browser" value="edge"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC05_ValidateUserMenuDropDown"></class>
+			<class name="com.tekarck.testCases.TC06_MyProfile"></class>
+			<class name="com.tekarck.testCases.TC07_MySettings"></class>
+			<class name="com.tekarck.testCases.TC08_DelevolperConsole"></class>
+			<class name="com.tekarck.testCases.TC09_Logout"></class>
+		</classes>
+	</test>
+	
+	<test name="FIREFOX">
+		<parameter name="browser" value="firefox"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC05_ValidateUserMenuDropDown"></class>
+			<class name="com.tekarck.testCases.TC06_MyProfile"></class>
+			<class name="com.tekarck.testCases.TC07_MySettings"></class>
+			<class name="com.tekarck.testCases.TC08_DelevolperConsole"></class>
+			<class name="com.tekarck.testCases.TC09_Logout"></class>
+		</classes>
+	</test>
+	
+</suite>

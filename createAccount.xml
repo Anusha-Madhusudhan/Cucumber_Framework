@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Create_Account">
+	<listeners>
+		<listener class-name="com.tekarch.listeners.SFDC_Listener"></listener>
+	</listeners>
+	<test name="CHROME">
+		<parameter name="browser" value="chrome"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC10_CreateAnAccount"></class>
+			<class name="com.tekarck.testCases.TC11_CreateNewView"></class>
+			<class name="com.tekarck.testCases.TC12_EditView"></class>
+			<class name="com.tekarck.testCases.TC13_MergeAccounts"></class>
+			<class name="com.tekarck.testCases.TC14_CreateAccountReport"></class>
+		</classes>
+	</test>
+	
+	<test name="EDGE">
+		<parameter name="browser" value="edge"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC10_CreateAnAccount"></class>
+			<class name="com.tekarck.testCases.TC11_CreateNewView"></class>
+			<class name="com.tekarck.testCases.TC12_EditView"></class>
+			<class name="com.tekarck.testCases.TC13_MergeAccounts"></class>
+			<class name="com.tekarck.testCases.TC14_CreateAccountReport"></class>
+		</classes>
+	</test>
+	
+	<test name="FIREFOX">
+		<parameter name="browser" value="firefox"></parameter>
+	    <parameter name="URL" value="https://login.salesforce.com/"></parameter>
+	    <parameter name="isHeadless" value="false"></parameter>
+	    <classes>
+			<class name="com.tekarck.testCases.TC10_CreateAnAccount"></class>
+			<class name="com.tekarck.testCases.TC11_CreateNewView"></class>
+			<class name="com.tekarck.testCases.TC12_EditView"></class>
+			<class name="com.tekarck.testCases.TC13_MergeAccounts"></class>
+			<class name="com.tekarck.testCases.TC14_CreateAccountReport"></class>
+		</classes>
+	</test>
+	
+</suite>

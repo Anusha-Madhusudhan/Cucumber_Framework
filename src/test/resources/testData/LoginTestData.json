@@ -1,0 +1,20 @@
+{
+	"userCreds": [
+		{
+			"username": "anusha@tek.com",
+			"password": "Sumedh@03"
+		},
+		{
+			"username": "anu@tek.com",
+			"password": "Sumedh@03"
+		},
+		{
+			"username": "anusha@tek.com",
+			"password": "Sumedh"
+		},
+		{
+			"username": "anu@tek.com",
+			"password": "sumedh"
+		}
+	]
+}

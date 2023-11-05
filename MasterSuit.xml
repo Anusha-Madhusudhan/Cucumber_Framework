@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+<suite-files>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\SDFC_Login.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\userMenuDropDown.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\createAccount.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\createOppty.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\Leads.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\contacts.xml"></suite-file>
+	<suite-file path="C:\Users\anush\TekArch-workspace\SDFC_Framework\randomScenarios.xml"></suite-file>
+</suite-files>
+</suite>
